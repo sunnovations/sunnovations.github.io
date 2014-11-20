@@ -1,0 +1,59 @@
+.container-fluid {
+  padding: 0px;
+}
+body {
+  font-family: Muli;
+  font-weight: 300;
+  color: #0163A7;
+  font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Muli;
+  font-weight: 400;
+  color: #F3720E;
+  text-transform: uppercase;
+}
+h3 {
+  font-weight: 300;
+  color: #00ABCF;
+  margin-top: 10px;
+}
+
+#header
+{
+  width: 100%;
+  padding: 25px 0 0 0;
+  -moz-box-shadow:    0px 1px 20px 0px #acacac;
+  -webkit-box-shadow: 0px 1px 20px 0px #acacac;
+  box-shadow:         0px 1px 20px 0px #acacac;
+  border-bottom: 2px solid #4dc4ff;
+  background: #E5F9FF;
+  position: relative;
+  z-index: 100;
+}
+#header.affix {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+#header #aquanta {
+  margin: 0 0 10px 0;
+}
+#header #support {
+  top: 15px;
+  margin-left: 80px;
+  position: relative;
+}
+.stripe {
+  padding: 40px 15px;
+  border-bottom: 2px solid #20B6FF;
+}
+
+.blue_stripe {
+  background: #EDF7FA;
+}
+}
+
+.white {
+  background: #fff;
+}
