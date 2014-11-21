@@ -3,6 +3,8 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
@@ -48,9 +50,54 @@
 
   <div class="blue_stripe stripe">
     <div class="row">
-      <div class="col-md-12 text-center">
-        <h2>Thank You</h2>
-        <p>Thank you for your submission. We will be in touch.</p>
+      <div class="col-md-8 col-md-offset-2">
+        <h2>Contact Us</h2>
+        <p>Please fill out the below form and we will get back to you.</p>
+        <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" role="form">
+
+        <input type=hidden name="oid" value="00DA0000000K9WO">
+        <input type=hidden name="retURL" value="http://sunnovations.com/thankyou">
+        <input type=hidden name="lead_source" value="Website">
+        <input type=hidden name="lead_interest" value="Aquanta">
+
+        <input type="hidden" name="debug" value=1>
+        <input type="hidden" name="debugEmail" value="bobby@cox.io">
+
+        <div class="form-group">
+          <label for="first_name">First Name</label>
+          <input  id="first_name" maxlength="40" name="first_name" size="20" type="text" class="form-control"/>
+        </div>
+
+        <div class="form-group">
+        <label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20" type="text" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label for="city">City</label>
+          <input  id="city" maxlength="40" name="city" size="20" type="text" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="state">State </label>
+          <input  id="state" maxlength="20" name="state" size="20" type="text" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          Specific Questions:<textarea  id="00NA0000002hroe" name="00NA0000002hroe" rows="3" type="text" wrap="soft" class="form-control"></textarea>
+        </div>
+
+        <input type="submit" name="submit">
+
+        </form>
+
+
       </div>
     </div>
   </div>
