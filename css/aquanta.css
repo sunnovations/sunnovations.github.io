@@ -1,6 +1,10 @@
 .container-fluid {
   padding: 0px;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 body {
   font-family: Muli;
   font-weight: 300;
